@@ -1,93 +1,153 @@
-# NORDCARE
+<p align="center">
+  <img src="assets/nordcare-cover.svg" width="100%" alt="NORDCARE — A calmer way through care. Hospital check-in and indoor wayfinding UX/UI concept." />
+</p>
 
-### A calmer way through care.
+<p align="center">
+  <a href="https://sabnampariyar.github.io/NORDCARE-Hospital-Check-In-Wayfinding-UX-UI-Case-Study/">
+    <img src="assets/launch-demo.svg" width="340" alt="Launch the interactive NORDCARE prototype" />
+  </a>
+</p>
 
-**Family-first hospital self-service check-in · Patient journey UX/UI · Service design**
+<p align="center">
+  <strong>Hospital check-in · Indoor wayfinding · Inclusive service design</strong><br/>
+  Interactive UX/UI case study · EN / FI / SV · Desktop and kiosk prototype
+</p>
 
-NORDCARE is an independent, research-led concept exploring how a hospital visit can feel clearer from the first step: arriving, identifying an appointment, checking in, receiving a queue number and finding the right waiting area.
-
-**[Explore the interactive prototype](https://sabnampariyar.github.io/NORDCARE-Hospital-Check-In-Wayfinding-UX-UI-Case-Study/)**
-
-> Concept project for Sabnam Pariyar's UX/UI and service design portfolio. It is not affiliated with a hospital or public healthcare authority, and does not register real patients.
+<p align="center">
+  <a href="https://sabnampariyar.github.io/NORDCARE-Hospital-Check-In-Wayfinding-UX-UI-Case-Study/">Try the live demo</a>
+  &nbsp;·&nbsp;
+  <a href="#the-design-challenge">The challenge</a>
+  &nbsp;·&nbsp;
+  <a href="#what-the-prototype-includes">Explore features</a>
+  &nbsp;·&nbsp;
+  <a href="#research-and-design-rationale">Research</a>
+  &nbsp;·&nbsp;
+  <a href="#prototype-and-implementation">Implementation</a>
+</p>
 
 ---
 
+## A calmer way through care
+
+NORDCARE explores a more reassuring hospital arrival experience—from walking into the building to confirming a fictional appointment and finding the right waiting area.
+
+The concept brings **self-service check-in, family-friendly guidance and indoor navigation** together in one accessible experience. It is a complete *interactive prototype*, not a collection of static screens.
+
+| **Designed for patients** | **Designed for families** | **Designed for clarity** |
+| :--- | :--- | :--- |
+| Simple language and fewer decisions at each step | A dedicated guardian-accompanied child journey | A connected, three-floor hospital map |
+| Assisted check-in options and staff fallback | Calm visual cues and pediatric destinations | Clear route segments, floor changes and print option |
+| Large-text and contrast controls | Appointment and queue details without real records | Step-free routes through lifts where selected |
+
 ## The design challenge
 
-Hospital arrivals often involve multiple interfaces and physical spaces: the entrance, check-in, registration exceptions, signage, queue displays and waiting rooms. The concept asks:
+A hospital visit can become stressful before care even begins. Entrances, check-in machines, reception desks, queue numbers, department names and corridors often feel like separate systems.
 
-**What if arrival felt like one guided service, rather than a collection of separate tasks?**
+> **How might we make hospital arrival feel like one guided service—clear, calm and inclusive from entrance to destination?**
 
-### Two connected journeys
+<p align="center">
+  <img src="assets/patient-journey.svg" width="100%" alt="Four stages of the NORDCARE journey: arrive, check in, get appointment details and find your way." />
+</p>
 
-| Adult patient | Guardian with child |
-| --- | --- |
-| Choose language and check-in method | See calm, child-friendly wording and guidance |
-| Simulate Kela card or appointment QR scan | Follow a guardian-accompanied simulated check-in |
-| Review a fictional appointment | Review a fictional pediatric appointment |
+### Two journeys, one service
+
+| Adult patient | Parent or guardian with a child |
+| :--- | :--- |
+| Choose language and a simulated check-in method | Choose a dedicated, child-friendly experience |
+| Simulate Kela card or QR check-in | Follow a guardian-accompanied simulated check-in |
+| Confirm a fictional appointment | Confirm a fictional pediatric appointment |
 | Receive an example queue number | Receive an example queue number |
-| View a route to waiting area A | View a route to waiting area C |
+| Navigate to waiting area A | Navigate to waiting area C |
 
-Both paths include a visible route to reception staff.
+Both journeys retain a visible option to **get help from reception staff**.
 
-## What you can explore
+## What the prototype includes
 
-- **Interactive kiosk:** complete simulated patient and family journeys, not just visual mockups.
-- **International benchmark:** documented practices from Finland, the UK, US, Singapore and Australia.
-- **Service blueprint:** patient-facing, staff-facing, backstage and support layers.
-- **Design system:** color, typography, touch components and child-friendly illustration.
-- **Inclusive features:** Finnish / Swedish / English, larger text, contrast control, step-free route and reduced-motion support.
-- **Ambient visual:** Three.js fragment shader behind animated SVG wayfinding artwork, with a CSS/SVG fallback where WebGL is unavailable.
-- **Three-floor indoor wayfinding:** selectable architectural floor diagrams for entrance/diagnostics, family clinics, and treatment/therapy, with rooms, wings, corridor intersections, aligned lifts and stairs, entrances, and clear destination markers.
-- **Connected route model:** the highlighted SVG path is computed from the same walkway graph that defines the displayed corridors. A family visit crosses floors via a lift or stairs, and the directions switch with the accessibility option. The map can be enlarged or printed with the relevant floor legs.
+| Area | Experience |
+| :--- | :--- |
+| **01 — Patient kiosk** | Functional step-by-step check-in with local simulated state and back/next interaction. |
+| **02 — Inclusive controls** | Finnish, Swedish and English; larger text; contrast setting; reduced-motion support; step-free routing. |
+| **03 — Family-friendly UI** | A calmer companion flow for visits with children, with reassuring wording and simple choices. |
+| **04 — Indoor navigation** | Three selectable floors, wings, corridors, room labels, lifts, stairs and waiting areas; connected SVG route geometry. |
+| **05 — Visual system** | Soft cream surfaces, deep Nordic teal, mint highlights, readable typography and generous touch targets. |
+| **06 — Ambient motion** | Restrained Three.js fragment shader and SVG animation, with CSS/SVG fallback when WebGL is unavailable. |
+| **07 — Service thinking** | Service blueprint covering patient-facing, staff-facing, backstage and support layers. |
+| **08 — Research trail** | International desk research informing the design questions and prototype decisions. |
 
-### Mapping accuracy: concept versus deployment
+### The three-floor wayfinding concept
 
-The NORDCARE building is **fictional**. Floors, rooms, departments, coordinates and routes are deliberately invented for demonstration, and the map visibly says it is not to scale. It must not be used to direct patients at a real hospital.
+The map is designed as a *building*, not a decorative dotted line:
 
-To make a real wayfinding system, the location graph would need to be generated or verified against **approved hospital CAD/BIM drawings or surveyed floor plans**, then validated on site. Each destination needs a canonical room/department identifier, public-entry permissions, corridor connectivity, lift and staircase access, accessible route constraints, signage names, temporary closures and an explicit update process. All patient routes would need safety and usability testing with hospital staff before release.
+- **Floor 1 — Entrance and diagnostics:** main arrival, reception, service areas and diagnostic destinations.
+- **Floor 2 — Family clinics:** pediatric appointments and family waiting areas.
+- **Floor 3 — Treatment and therapy:** additional clinical destinations.
+- **Connected vertical circulation:** lifts and stairs occupy aligned locations across floors.
+- **Graph-based routing:** the displayed highlight follows the same connected walkway model used to draw the corridors. Accessible routes can favor lifts, and relevant floor legs can be enlarged or printed.
 
-The shader is intentionally separate from navigation. Animated route strokes are restrained SVG layers on top of precise vector geometry; the geometry and route remain legible when GPU effects or animations are disabled.
+**Important map accuracy note:** This is a fictional hospital with invented rooms, departments, floor plans and routes. It is **not to scale** and is **not safe for navigation inside a real hospital**. Deployment would require approved CAD/BIM or surveyed plans, validated room IDs, permitted corridors, live closures, accessible-route constraints, signage matching and on-site staff/user validation. The shader does not determine route geometry.
 
-## Evidence shaping the design
+## A small, consistent design language
 
-This is **desk research**, not a claim of user interviews or measured improvement.
+| Foundation | Direction |
+| :--- | :--- |
+| <img src="https://placehold.co/22x22/153c3c/153c3c.png" width="14" height="14" alt="" /> **Deep ink** | `#153C3C` — calm headings and legible body text |
+| <img src="https://placehold.co/22x22/176f69/176f69.png" width="14" height="14" alt="" /> **Nordic teal** | `#176F69` — progress, primary actions and routes |
+| <img src="https://placehold.co/22x22/e5f2ec/e5f2ec.png" width="14" height="14" alt="" /> **Soft mint** | `#E5F2EC` — selected states and calm guidance |
+| <img src="https://placehold.co/22x22/f9faf6/f9faf6.png" width="14" height="14" alt="" /> **Warm cream** | `#F9FAF6` — spacious, low-noise backgrounds |
+| **Typography** | Manrope and DM Sans; clear hierarchy and generous spacing |
 
-1. [HUS patient arrival and self-registration](https://www.hus.fi/en/patient/patient-guide/welcome-treatment-hus) — Kela card / ID-assisted kiosk check-in and reception fallback.
-2. [HUS Jorvi Hospital](https://www.hus.fi/en/patient/hospitals-and-other-units/jorvi-hospital/arriving-jorvi-hospital) — detailed guidance to the correct waiting area after arrival.
-3. [Pohde / Oulu University Hospital emergency guidance](https://pohde.fi/palvelut/paivystys/?area=oulu) — locally relevant automated registration, considered separately from planned outpatient care.
-4. [East Kent NHS patient appointments](https://www.ekhuft.nhs.uk/information-for-patients/your-appointment/) — self check-in followed by destination instructions.
-5. [Cleveland Clinic AppointmentPass](https://my.clevelandclinic.org/patients/information/appointments-checklist) — barcode / manual options and human assistance.
-6. [Singapore HealthHub mobile pre-registration](https://support.healthhub.sg/hc/en-us/articles/52607597773849-How-do-I-pre-register-and-obtain-a-queue-number-for-my-appointment-using-HealthHub-app) — queue number and pre-registration within an institution-dependent time window.
-7. [NSW Health wayfinding for healthcare facilities](https://www.health.nsw.gov.au/Hospitals/Publications/wayfinding-for-healthcare-facilities.pdf) — design guidance for navigation in complex clinical buildings.
+The visual direction is intentionally quieter than a typical information-heavy hospital interface. **Accessibility is a functional design requirement**, not just a color choice.
 
-### Important safety and privacy boundaries
+## Research and design rationale
 
-The Kela card can be used by participating services for check-in but is **not an official identity card**. Scanning a child's card does not itself authorize a guardian to act for that child. A production service would require hospital-approved identity, guardian, appointment and consent checks, as well as staff-handled exceptions. See [Kela](https://www.kela.fi/kela-card) and [Suomi.fi](https://www.suomi.fi/instructions-and-support/e-authorizations/acting-on-behalf-of-a-person/acting-on-behalf-of-an-underaged-child).
+The concept draws on published hospital guidance and wayfinding literature across **Finland, the UK, the United States, Singapore and Australia**. This is **desk research**; it does not claim original interviews, hospital approval, usability outcomes or clinical validation.
 
-The prototype has no backend or patient-record connections. Every appointment, identity and queue number is fabricated for demonstration; nothing is transmitted or stored.
+<details>
+<summary><strong>Explore the research references</strong></summary>
 
-## Prototype implementation
+1. [HUS patient arrival and self-registration](https://www.hus.fi/en/patient/patient-guide/welcome-treatment-hus) — self-registration and staff fallback.
+2. [HUS Jorvi Hospital arrival guidance](https://www.hus.fi/en/patient/hospitals-and-other-units/jorvi-hospital/arriving-jorvi-hospital) — getting to the appropriate waiting area.
+3. [Pohde / Oulu University Hospital emergency guidance](https://pohde.fi/palvelut/paivystys/?area=oulu) — local automated registration context, distinct from planned outpatient appointments.
+4. [East Kent NHS patient appointments](https://www.ekhuft.nhs.uk/information-for-patients/your-appointment/) — check-in and destination guidance.
+5. [Cleveland Clinic appointment information](https://my.clevelandclinic.org/patients/information/appointments-checklist) — mobile/manual options and human assistance.
+6. [Singapore HealthHub pre-registration](https://support.healthhub.sg/hc/en-us/articles/52607597773849-How-do-I-pre-register-and-obtain-a-queue-number-for-my-appointment-using-HealthHub-app) — preregistration and queue numbers.
+7. [NSW Health: Wayfinding for Healthcare Facilities (PDF)](https://www.health.nsw.gov.au/Hospitals/Publications/wayfinding-for-healthcare-facilities.pdf) — environmental wayfinding considerations.
 
-Buildless static web project under `dist/`:
+</details>
+
+### Privacy, Kela card and guardian boundaries
+
+- A **Kela card is not an official identity document**. Participating services may use it for check-in, but the workflow must not equate card scanning with proof of identity. See [Kela's guidance](https://www.kela.fi/kela-card).
+- A child's card **does not automatically authorize** an accompanying adult to act for that child. Real services need verified guardian/consent handling and staff-managed exceptions. See [Suomi.fi guidance](https://www.suomi.fi/instructions-and-support/e-authorizations/acting-on-behalf-of-a-person/acting-on-behalf-of-an-underaged-child).
+- **No real patient data:** the prototype has no patient-record integration, hospital backend or real registration. Every identity, appointment and queue number is fabricated for demonstration; nothing is transmitted or stored by the prototype.
+
+## Prototype and implementation
+
+The demonstration is a lightweight, buildless static project under `dist/`:
 
 ```text
 dist/
   index.html       Case-study layout and sourced research
-  styles.css       Responsive visual and interaction system
-  app.js           Local interactive patient/child check-in state machine
-  shader.js        Three.js GPU shader with graceful fallback
-  wayfinding.js    Three-floor map, room labels, graph routing and printable floor legs
+  styles.css       Responsive layout, design tokens and controls
+  app.js           Interactive adult and child check-in flows
+  shader.js        Three.js ambient shader and fallback
+  wayfinding.js    Three-floor navigation, routes and print views
 tests/
-  wayfinding.test.cjs  Corridor alignment and route invariants
+  wayfinding.test.cjs  Walkway connectivity and route invariants
 ```
 
-Open `dist/index.html` locally, or serve `dist` with a static file server. The kiosk works without Three.js and without a network connection; the optional shader and hosted fonts load when available.
+**Run locally:** open `dist/index.html`, or serve the `dist/` directory with any static web server. The kiosk interaction works without Three.js or an active network connection. Optional fonts and visual effects load when available.
 
-## What would come next in a real hospital
-
-Field research, patient and staff usability sessions, accessibility testing, clinical governance, localization review, device ergonomics, system integrations, privacy assessment and location-specific wayfinding data. The project intentionally does not claim any of those have already been completed.
+**If this became a hospital service:** the next steps would include patient and staff research, usability testing, accessibility audits, localization review, information security/privacy work, device ergonomics, clinical governance, and rigorously validated site-specific floor plans and system integration.
 
 ---
 
-**NORDCARE · Independent UX/UI and service design exploration · 2026**
+<p align="center">
+  <strong>NORDCARE · A calmer way through care.</strong><br/>
+  Independent UX/UI and service-design portfolio concept for <strong>Sabnam Pariyar</strong> · 2026<br/>
+  <em>Not affiliated with any hospital or healthcare authority. No real patient registration.</em>
+</p>
+
+<p align="center">
+  <a href="https://sabnampariyar.github.io/NORDCARE-Hospital-Check-In-Wayfinding-UX-UI-Case-Study/"><strong>Explore the live prototype →</strong></a>
+</p>
