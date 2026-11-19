@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 248" role="img" aria-label="NORDCARE color palette: deep ink, Nordic teal, soft mint, warm cream, and supportive accents">
+<rect width="1100" height="248" rx="22" fill="#f5f9f5"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="35" y="39" font-size="14" font-weight="700" fill="#63867d" letter-spacing="2">COLORS &amp; TYPOGRAPHY</text>
+<g transform="translate(35 58)"><rect width="190" height="101" rx="15" fill="#153c3c"/><rect y="105" width="190" height="58" rx="13" fill="#fff"/><text x="13" y="130" fill="#153c3c" font-size="16" font-weight="700">Deep ink</text><text x="13" y="149" fill="#718980" font-size="13">#153C3C</text></g>
+<g transform="translate(245 58)"><rect width="190" height="101" rx="15" fill="#176f69"/><rect y="105" width="190" height="58" rx="13" fill="#fff"/><text x="13" y="130" fill="#153c3c" font-size="16" font-weight="700">Nordic teal</text><text x="13" y="149" fill="#718980" font-size="13">#176F69</text></g>
+<g transform="translate(455 58)"><rect width="190" height="101" rx="15" fill="#e5f2ec" stroke="#cddfd4"/><rect y="105" width="190" height="58" rx="13" fill="#fff"/><text x="13" y="130" fill="#153c3c" font-size="16" font-weight="700">Soft mint</text><text x="13" y="149" fill="#718980" font-size="13">#E5F2EC</text></g>
+<g transform="translate(665 58)"><rect width="190" height="101" rx="15" fill="#f9faf6" stroke="#dbe8dd"/><rect y="105" width="190" height="58" rx="13" fill="#fff"/><text x="13" y="130" fill="#153c3c" font-size="16" font-weight="700">Warm cream</text><text x="13" y="149" fill="#718980" font-size="13">#F9FAF6</text></g>
+<g transform="translate(875 58)"><rect width="190" height="101" rx="15" fill="#f5d8b9"/><path d="M5 101 96 10 185 101Z" fill="#c9c1e9" fill-opacity=".7"/><rect y="105" width="190" height="58" rx="13" fill="#fff"/><text x="13" y="130" fill="#153c3c" font-size="16" font-weight="700">Support accents</text><text x="13" y="149" fill="#718980" font-size="13">Warmth + softness</text></g>
+<text x="38" y="237" font-size="13" fill="#6f8b83">Manrope + DM Sans</text>
+<path d="M215 233h22" stroke="#bed2ca"/><text x="251" y="237" font-size="13" fill="#6f8b83">Calm contrast</text>
+<path d="M420 233h22" stroke="#bed2ca"/><text x="456" y="237" font-size="13" fill="#6f8b83">Large touch targets</text>
+</g></svg>
