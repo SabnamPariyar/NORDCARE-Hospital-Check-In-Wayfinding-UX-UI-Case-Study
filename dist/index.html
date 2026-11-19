@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#e9f3f0">
+  <meta name="description" content="NORDCARE — a research-led family-friendly hospital arrival and self-service check-in experience. An independent speculative UX/UI and service design case study by Sabnam Pariyar.">
+  <title>NORDCARE — Family-first hospital arrival | Sabnam Pariyar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="NORDCARE, back to top"><span class="brand-mark"><span class="plus-vertical"></span><span class="plus-horizontal"></span></span><span>NORD<span>CARE</span></span></a>
+    <nav class="site-nav" aria-label="Primary navigation">
+      <a href="#experience">Experience</a><a href="#research">Research</a><a href="#blueprint">Service blueprint</a><a href="#system">Design system</a>
+    </nav>
+    <a class="nav-cta" href="#experience">Try the prototype <span class="nav-dot" aria-hidden="true"></span></a>
+    <button class="mobile-menu" type="button" id="mobile-menu" aria-label="Open navigation" aria-expanded="false"><span></span><span></span><span></span></button>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="top">
+      <div class="hero-glow"></div>
+      <canvas id="hero-shader" aria-hidden="true"></canvas>
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> UX / UI · SERVICE DESIGN · 2026 <span class="eyebrow-tag">CONCEPT PROJECT</span></div>
+          <h1>A calmer way <em>through care.</em></h1>
+          <p class="hero-desc">Hospital arrival can feel overwhelming. NORDCARE reimagines check-in as one reassuring journey—from the entrance to the right waiting room—for patients, children and the people who care for them.</p>
+          <div class="hero-actions"><a class="button button-dark" href="#experience">Explore interactive kiosk <span class="button-orb" aria-hidden="true"></span></a><a class="text-link" href="#research">View the research <span aria-hidden="true">↗</span></a></div>
+          <div class="hero-facts"><div><strong>05</strong><span>market benchmarks</span></div><i></i><div><strong>02</strong><span>patient journeys</span></div><i></i><div><strong>03</strong><span>language options</span></div></div>
+        </div>
+        <div class="hero-art" aria-label="Abstract flowing wayfinding routes leading to a hospital destination">
+          <div class="art-halo halo-one"></div><div class="art-halo halo-two"></div>
+          <div class="art-glass glass-back"></div>
+          <div class="art-glass glass-front">
+            <div class="glass-top"><span class="glass-signal"></span><span>WELCOME TO NORDCARE</span><span>✳</span></div>
+            <svg class="route-art" viewBox="0 0 460 475" fill="none" role="img" aria-label="A stylized animated route from a person to the care destination">
+              <defs><linearGradient id="routeGrad" x1="39" y1="100" x2="401" y2="404" gradientUnits="userSpaceOnUse"><stop stop-color="#70c6ab"/><stop offset=".53" stop-color="#1c9487"/><stop offset="1" stop-color="#c3abf6"/></linearGradient><filter id="routeBlur"><feGaussianBlur stdDeviation="14"/></filter></defs>
+              <path d="M46 342H132Q156 342 156 316V271Q156 249 178 249H280Q307 249 307 222V161Q307 141 329 141H409" stroke="#86c9bb" stroke-opacity=".15" stroke-width="42" stroke-linecap="round" filter="url(#routeBlur)"/>
+              <path d="M46 342H132Q156 342 156 316V271Q156 249 178 249H280Q307 249 307 222V161Q307 141 329 141H409" stroke="#bdcec8" stroke-width="23" stroke-linecap="round"/>
+              <path class="route-moving" d="M46 342H132Q156 342 156 316V271Q156 249 178 249H280Q307 249 307 222V161Q307 141 329 141H409" stroke="url(#routeGrad)" stroke-width="7" stroke-linecap="round"/>
+              <circle cx="46" cy="342" r="23" fill="#f4faf7" stroke="#d1e4de" stroke-width="2"/><circle cx="46" cy="338" r="7" fill="#478477"/><path d="M33 354C34 341 58 341 59 354" stroke="#478477" stroke-width="4" stroke-linecap="round"/>
+              <circle cx="409" cy="141" r="37" fill="#f8ffff" stroke="#b1dbd0" stroke-width="2"/><path d="M397 140h24M409 128v24" stroke="#1a8d78" stroke-width="7" stroke-linecap="round"/>
+              <circle cx="156" cy="274" r="7" fill="#f9fdfa" stroke="#46a894" stroke-width="3"/><circle cx="307" cy="197" r="7" fill="#f9fdfa" stroke="#46a894" stroke-width="3"/>
+              <text x="43" y="386" font-size="12" fill="#6b8f83">ARRIVAL</text><text x="368" y="201" font-size="12" fill="#587e77">YOUR CARE</text>
+              <path d="M104 105h65m-65 15h42" stroke="#aec7c0" stroke-width="5" stroke-linecap="round" opacity=".55"/><path d="M105 411h47m-47 14h84" stroke="#aec7c0" stroke-width="5" stroke-linecap="round" opacity=".45"/>
+            </svg>
+            <div class="glass-bottom"><span class="status-dot"></span><span>YOU'RE IN THE RIGHT PLACE</span><span class="glass-arrow">⌁</span></div>
+          </div>
+          <div class="floating-chip chip-one"><span class="chip-icon">✿</span><span>Gentle guidance<br><small>for every age</small></span></div>
+          <div class="floating-chip chip-two"><span class="chip-swatch"></span> One clear journey</div>
+          <span class="art-coordinate">60° N / CARE CONNECTED</span>
+        </div>
+      </div>
+      <div class="hero-bottom"><span>INDEPENDENT DESIGN EXPLORATION</span><span>SCROLL TO EXPLORE <span class="down-arrow" aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <section class="insight section-wrap" id="opportunity">
+      <div class="section-heading"><span class="section-index">01 / THE OPPORTUNITY</span><h2>Every hospital visit starts<br>before the appointment.</h2><p>Good clinical care deserves an arrival experience that is just as thoughtful. The first few minutes shape how confidently people move through the service.</p></div>
+      <div class="problem-grid">
+        <article class="problem-card"><span class="card-count">01</span><div class="icon-frame"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 8v8M24 29v10M8 24h10M30 24h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><circle cx="24" cy="24" r="8" stroke="currentColor" stroke-width="2.5"/></svg></div><h3>Arrival uncertainty</h3><p>Patients may not know where to check in, what to bring or what happens next.</p></article>
+        <article class="problem-card"><span class="card-count">02</span><div class="icon-frame"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M12 37V12h24v25M18 20h4M27 20h4M18 27h4M27 27h4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M8 37h32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></div><h3>Disconnected steps</h3><p>Registration, queue numbers, signs and waiting areas can feel like separate systems.</p></article>
+        <article class="problem-card"><span class="card-count">03</span><div class="icon-frame"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M11 35c0-8 7-14 13-14s13 6 13 14M17 15a7 7 0 1 1 14 0" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/><path d="M7 38h34" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/></svg></div><h3>Different needs</h3><p>Children, guardians, older adults and disabled visitors need flexible guidance.</p></article>
+      </div>
+    </section>
+
+    <section class="kiosk-section" id="experience">
+      <div class="section-wrap">
+        <div class="experience-header"><div><span class="section-index light">02 / INTERACTIVE PROTOTYPE</span><h2>Try the arrival<br><em>experience.</em></h2></div><div class="experience-intro"><p>Two connected journeys, one accessible interface. Select a path and walk through a simulated check-in.</p><div class="prototype-label"><span></span> LIVE INTERACTIVE CONCEPT · NO REAL PATIENT DATA</div></div></div>
+        <div class="experience-layout">
+          <aside class="experience-aside">
+            <div class="aside-kicker">PICK A JOURNEY</div>
+            <button class="journey-tile active" data-journey="adult" type="button"><span class="journey-symbol">◎</span><span><strong>Adult patient</strong><small>Check in and find your clinic</small></span><span class="journey-check">✓</span></button>
+            <button class="journey-tile" data-journey="family" type="button"><span class="journey-symbol kid-symbol">✿</span><span><strong>With a child</strong><small>Gentle family-first guidance</small></span><span class="journey-check">✓</span></button>
+            <div class="aside-rule"></div>
+            <div class="aside-kicker">WHAT TO TEST</div>
+            <ul class="test-list"><li><span>01</span> Choose a journey</li><li><span>02</span> Simulate Kela card or QR scan</li><li><span>03</span> Confirm appointment</li><li><span>04</span> Follow your route</li></ul>
+            <div class="aside-foot"><span class="tiny-icon">i</span><p>All names, queue numbers and appointments are fictional. No identity document is read or stored.</p></div>
+          </aside>
+          <div class="kiosk-presentation">
+            <div class="kiosk-device">
+              <div class="kiosk-bezel">
+                <div class="kiosk-camera" aria-hidden="true"></div>
+                <div id="kiosk" class="kiosk-ui" aria-live="polite"></div>
+              </div>
+              <div class="kiosk-neck"></div><div class="kiosk-base"></div>
+            </div>
+          </div>
+        </div>
+        <div class="experience-footer"><span>SUPPORTS</span><span>ENGLISH / SUOMI / SVENSKA</span><span>ADULT / FAMILY</span><span>SIMULATED KELA CARD / QR</span><span>STEP-FREE DIRECTIONS</span></div>
+      </div>
+    </section>
+
+    <section class="research section-wrap" id="research">
+      <div class="section-heading research-heading"><span class="section-index">03 / DESK RESEARCH</span><h2>Learning from hospitals<br>around the world.</h2><p>A review of publicly documented patient-arrival services. We looked for practices worth carrying forward—and gaps worth exploring through design.</p></div>
+      <div class="research-highlight"><span class="highlight-icon">✳</span><p><strong>The insight:</strong> self check-in is already common. The stronger opportunity is to connect it with what comes immediately after: reassurance, the right waiting area and support when a patient needs a person.</p></div>
+      <div class="local-lens"><div><span class="mini-label">LOCAL LENS / NORTHERN FINLAND</span><h3>Oulu matters, too.</h3></div><p>Pohde's guidance for Oulu University Hospital (OYS) emergency services includes registration at an automated terminal. That confirms a locally relevant digital touchpoint—but emergency triage and planned outpatient visits are different services and would need separate safety research.</p><a href="https://pohde.fi/palvelut/paivystys/?area=oulu" target="_blank" rel="noopener noreferrer">Pohde / OYS guidance ↗</a></div>
+      <div class="benchmark-list">
+        <article class="benchmark-row"><div class="benchmark-place"><span class="flag-dot finland">FI</span><span>FINLAND<small>HUS / Helsinki</small></span></div><div><h3>Registration with a card</h3><p>HUS describes self-registration kiosks at hospital entrances using a Kela card, driver's licence or ID card, with reception alternatives.</p></div><div class="takeaway"><span>DESIGN RESPONSE</span><p>Card scanning plus a prominent human-help fallback.</p><a href="https://www.hus.fi/en/patient/patient-guide/welcome-treatment-hus" target="_blank" rel="noopener noreferrer">HUS guidance ↗</a></div></article>
+        <article class="benchmark-row"><div class="benchmark-place"><span class="flag-dot britain">UK</span><span>UNITED KINGDOM<small>East Kent NHS</small></span></div><div><h3>Know where to go</h3><p>East Kent Hospital kiosks use date of birth for self check-in and then direct visitors to their appointment location; staff remain available.</p></div><div class="takeaway"><span>DESIGN RESPONSE</span><p>Put wayfinding directly after successful check-in.</p><a href="https://www.ekhuft.nhs.uk/information-for-patients/your-appointment/" target="_blank" rel="noopener noreferrer">NHS guidance ↗</a></div></article>
+        <article class="benchmark-row"><div class="benchmark-place"><span class="flag-dot america">US</span><span>UNITED STATES<small>Cleveland Clinic</small></span></div><div><h3>Flexible arrival methods</h3><p>AppointmentPass supports a confirmation barcode or manual details, plus an attendant and front-desk fallback.</p></div><div class="takeaway"><span>DESIGN RESPONSE</span><p>Multiple methods, one clearly visible exit to staff.</p><a href="https://my.clevelandclinic.org/patients/information/appointments-checklist" target="_blank" rel="noopener noreferrer">Clinic checklist ↗</a></div></article>
+        <article class="benchmark-row"><div class="benchmark-place"><span class="flag-dot singapore">SG</span><span>SINGAPORE<small>HealthHub</small></span></div><div><h3>Queue before you arrive</h3><p>HealthHub supports mobile pre-registration and queue-number collection during a location-dependent window before appointments.</p></div><div class="takeaway"><span>DESIGN RESPONSE</span><p>Show queue status and connect a future mobile journey.</p><a href="https://support.healthhub.sg/hc/en-us/articles/52607597773849-How-do-I-pre-register-and-obtain-a-queue-number-for-my-appointment-using-HealthHub-app" target="_blank" rel="noopener noreferrer">HealthHub FAQ ↗</a></div></article>
+        <article class="benchmark-row"><div class="benchmark-place"><span class="flag-dot australia">AU</span><span>AUSTRALIA<small>NSW Health</small></span></div><div><h3>Wayfinding is a service</h3><p>NSW Health publishes dedicated guidance for wayfinding across complex healthcare facilities, including arrival, signs and navigating change.</p></div><div class="takeaway"><span>DESIGN RESPONSE</span><p>Consistent destination names, routes and physical signs.</p><a href="https://www.health.nsw.gov.au/Hospitals/Publications/wayfinding-for-healthcare-facilities.pdf" target="_blank" rel="noopener noreferrer">Wayfinding guide ↗</a></div></article>
+      </div>
+      <div class="research-notes"><div><span class="mini-label">IMPORTANT DISTINCTION</span><h3>A Kela card is not a login.</h3><p>It can support kiosk registration where the provider allows it, but it is not an identity document or proof of guardian authority. Production use must follow the hospital's identity and consent process.</p><a href="https://www.kela.fi/kela-card" target="_blank" rel="noopener noreferrer">Kela card information ↗</a></div><div><span class="mini-label">RESEARCH STATUS</span><h3>Evidence, not invented outcomes.</h3><p>This is a speculative, independent portfolio concept. Comparisons are public desk research—not usability studies, hospital partnerships, clinical validation or measured improvements.</p><a href="https://www.suomi.fi/instructions-and-support/e-authorizations/acting-on-behalf-of-a-person/acting-on-behalf-of-an-underaged-child" target="_blank" rel="noopener noreferrer">Guardian authorization guidance ↗</a></div></div>
+    </section>
+
+    <section class="blueprint-section" id="blueprint"><div class="section-wrap"><div class="section-heading"><span class="section-index">04 / SERVICE DESIGN</span><h2>One connected journey.<br>Not five disconnected screens.</h2><p>The service blueprint aligns what the visitor sees with what staff and systems need to do behind the scenes.</p></div>
+      <div class="blueprint-scroll"><div class="blueprint-grid" role="table" aria-label="Proposed service blueprint">
+        <div class="bp-head bp-lane" role="columnheader">SERVICE LAYER</div><div class="bp-head" role="columnheader"><span>01</span> Arrive</div><div class="bp-head" role="columnheader"><span>02</span> Identify</div><div class="bp-head" role="columnheader"><span>03</span> Confirm</div><div class="bp-head" role="columnheader"><span>04</span> Navigate</div><div class="bp-head" role="columnheader"><span>05</span> Reach care</div>
+        <div class="bp-lane" role="rowheader">PATIENT / FAMILY</div><div class="bp-cell">Find kiosk; choose language</div><div class="bp-cell">Scan card or QR</div><div class="bp-cell">Review visit details</div><div class="bp-cell">Follow printed/digital route</div><div class="bp-cell">Wait in right zone</div>
+        <div class="bp-lane" role="rowheader">VISIBLE SERVICE</div><div class="bp-cell">Welcome screen; calm cues</div><div class="bp-cell">Large, clear entry methods</div><div class="bp-cell">Accessible confirmation</div><div class="bp-cell">Queue ticket and map</div><div class="bp-cell">Staff and calling display</div>
+        <div class="bp-lane" role="rowheader">BEHIND THE SCENES</div><div class="bp-cell">Kiosk availability / status</div><div class="bp-cell">Provider-verified record lookup</div><div class="bp-cell">Appointment validation</div><div class="bp-cell">Clinic / route data</div><div class="bp-cell">Queue management</div>
+        <div class="bp-lane" role="rowheader">SAFETY & SUPPORT</div><div class="bp-cell">Accessible kiosk placement</div><div class="bp-cell">Privacy and staff fallback</div><div class="bp-cell">Guardian rules / exceptions</div><div class="bp-cell">Step-free alternative</div><div class="bp-cell">Help if destination changes</div>
+      </div></div><p class="blueprint-disclaimer">Proposed future-state service architecture. Systems integration and patient-safety workflows are not implemented in this prototype.</p>
+    </div></section>
+
+    <section class="system section-wrap" id="system"><div class="section-heading"><span class="section-index">05 / DESIGN SYSTEM</span><h2>Designed to feel<br>considerate, not clinical.</h2><p>A small visual language built around legibility, steady guidance and an emotional tone that supports both adults and children.</p></div>
+      <div class="system-grid">
+        <article class="system-card color-card"><div class="card-topline"><h3>Color & warmth</h3><span>01 / TOKENS</span></div><div class="palette"><div class="palette-main"><span>NORD TEAL</span><strong>#176F69</strong></div><div class="palette-side"><div style="background:#e4f2ed;color:#1c5a51"><span>MIST</span><strong>#E4F2ED</strong></div><div style="background:#f5d8b9;color:#6a4f33"><span>APRICOT</span><strong>#F5D8B9</strong></div><div style="background:#c9c1e9;color:#423966"><span>LILAC</span><strong>#C9C1E9</strong></div></div></div><p>Medical trust without an intimidating all-white palette. Color is always paired with labels.</p></article>
+        <article class="system-card type-card"><div class="card-topline"><h3>Type & clarity</h3><span>02 / TYPE</span></div><div class="type-big">Care begins<br>with <em>clarity.</em></div><div class="type-samples"><span>Aa</span><p><strong>Manrope</strong><br>Friendly, strong headings<br><small>DM Sans · readable interface text</small></p></div></article>
+        <article class="system-card component-card"><div class="card-topline"><h3>Everyday interactions</h3><span>03 / COMPONENTS</span></div><div class="component-stack"><button class="sample-primary" type="button" id="sample-action">Continue <span>✓</span></button><button class="sample-secondary" type="button" id="sample-feedback">Need help from staff <span>⌁</span></button><div class="component-feedback" id="component-feedback" role="status">Large targets, short labels, clear feedback.</div></div><p>Touch-first buttons, generous spacing and an explicit path back or to human help.</p></article>
+        <article class="system-card mascot-card"><div class="card-topline"><h3>A softer family mode</h3><span>04 / CHARACTER</span></div><div class="mascot-display"><svg class="fox" viewBox="0 0 200 182" role="img" aria-label="Friendly illustrated fox character"><path d="M40 57L40 10L86 39Q100 34 115 39L160 10V58Q178 78 175 109Q173 151 115 158H85Q27 151 25 109Q22 78 40 57Z" fill="#eea46d"/><path d="M43 13L49 61L79 42Z" fill="#ffe2cc"/><path d="M156 13L150 61L121 42Z" fill="#ffe2cc"/><path d="M33 93Q48 109 69 113L100 152Q66 162 43 142Q19 121 33 93Z" fill="#fff4e7"/><path d="M167 93Q152 109 131 113L100 152Q134 162 157 142Q181 121 167 93Z" fill="#fff4e7"/><ellipse cx="68" cy="92" rx="6" ry="8" fill="#4d4745"/><ellipse cx="132" cy="92" rx="6" ry="8" fill="#4d4745"/><path d="M87 128Q100 143 113 128" stroke="#684a3e" stroke-width="4" stroke-linecap="round"/><path d="M91 120Q100 112 109 120L101 129Z" fill="#684a3e"/><ellipse cx="52" cy="116" rx="13" ry="6" fill="#e17e6e" opacity=".55"/><ellipse cx="148" cy="116" rx="13" ry="6" fill="#e17e6e" opacity=".55"/></svg><div class="mascot-bubble">One step at a time.<br>We're here with you.</div></div><p>A gentle companion for child-facing moments—never a substitute for adult guidance or clinical communication.</p></article>
+      </div>
+    </section>
+
+    <section class="access-section" id="access"><div class="section-wrap access-grid"><div><span class="section-index light">06 / INCLUSIVE BY DESIGN</span><h2>Good care includes<br><em>everyone.</em></h2><p>Accessible digital service design is also physical service design: readable screens, clear routes, multilingual support and an easy way to reach staff.</p><a href="https://www.w3.org/TR/WCAG22/" class="access-source" target="_blank" rel="noopener noreferrer">Reference: WCAG 2.2 ↗</a></div><div class="access-list"><div><span>01</span><div><h3>Clear and adjustable</h3><p>Readable interface, large touch targets, larger-text and higher-contrast options.</p></div></div><div><span>02</span><div><h3>Calm by default</h3><p>No required motion. Reduced-motion preferences are respected; audio is never the only cue.</p></div></div><div><span>03</span><div><h3>Language with dignity</h3><p>Finnish, Swedish and English flows with simple, supportive wording.</p></div></div><div><span>04</span><div><h3>Always a human option</h3><p>Assistance, privacy protection and a staff handoff at each decision point.</p></div></div></div></div></section>
+
+    <section class="outcome section-wrap"><span class="section-index">07 / NEXT STEPS</span><div class="outcome-grid"><h2>Make arrival<br>feel like <em>care.</em></h2><div><p>The proposed next stage is to test the prototype with patients, guardians, hospital staff and accessibility specialists; validate privacy, guardian rules and emergency exceptions; then adapt it to a real facility's maps and appointment systems.</p><div class="outcome-actions"><a class="button button-dark" href="#experience">Revisit the prototype</a><a class="text-link" href="#top">Back to top ↑</a></div></div></div></section>
+  </main>
+  <footer class="site-footer"><div class="footer-brand"><span class="brand-mark small"><span class="plus-vertical"></span><span class="plus-horizontal"></span></span> NORDCARE <span class="footer-sep">/</span> FAMILY HOSPITAL EXPERIENCE</div><p>INDEPENDENT CONCEPT CASE STUDY · DESIGNED FOR SABNAM PARIYAR'S UX / UI PORTFOLIO</p><p>Not affiliated with any hospital or national healthcare service. Not for real registration or medical use.</p><span>© 2026 NORDCARE DESIGN EXPLORATION</span></footer>
+  <script src="wayfinding.js" defer></script>
+  <script src="app.js" defer></script>
+  <script type="module" src="shader.js"></script>
+</body>
+</html>
