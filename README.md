@@ -6,7 +6,7 @@
 
 NORDCARE is an independent, research-led concept exploring how a hospital visit can feel clearer from the first step: arriving, identifying an appointment, checking in, receiving a queue number and finding the right waiting area.
 
-**[Explore the interactive prototype](https://nordcare-family-checkin-sabnam.sandeep-pariyar.chatgpt.site)**
+**[Explore the interactive prototype](https://sabnampariyar.github.io/NORDCARE-Hospital-Check-In-Wayfinding-UX-UI-Case-Study/)**
 
 > Concept project for Sabnam Pariyar's UX/UI and service design portfolio. It is not affiliated with a hospital or public healthcare authority, and does not register real patients.
 
