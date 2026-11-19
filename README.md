@@ -88,15 +88,13 @@ The map is designed as a *building*, not a decorative dotted line:
 
 ## A small, consistent design language
 
-| Foundation | Direction |
-| :--- | :--- |
-| <img src="https://placehold.co/22x22/153c3c/153c3c.png" width="14" height="14" alt="" /> **Deep ink** | `#153C3C` — calm headings and legible body text |
-| <img src="https://placehold.co/22x22/176f69/176f69.png" width="14" height="14" alt="" /> **Nordic teal** | `#176F69` — progress, primary actions and routes |
-| <img src="https://placehold.co/22x22/e5f2ec/e5f2ec.png" width="14" height="14" alt="" /> **Soft mint** | `#E5F2EC` — selected states and calm guidance |
-| <img src="https://placehold.co/22x22/f9faf6/f9faf6.png" width="14" height="14" alt="" /> **Warm cream** | `#F9FAF6` — spacious, low-noise backgrounds |
-| **Typography** | Manrope and DM Sans; clear hierarchy and generous spacing |
+<p align="center">
+  <img src="assets/palette.svg" width="100%" alt="NORDCARE visual design palette: deep ink, Nordic teal, soft mint, warm cream and supportive accents." />
+</p>
 
-The visual direction is intentionally quieter than a typical information-heavy hospital interface. **Accessibility is a functional design requirement**, not just a color choice.
+**Manrope + DM Sans** establish a friendly but readable information hierarchy. Nordic teal connects primary actions and navigational routes, while mint creates calm selected states. Generous spacing, clear focus and touch targets reduce the visual demand of a potentially stressful arrival.
+
+Accessibility is a **functional design requirement**, not just a color choice.
 
 ## Research and design rationale
 
