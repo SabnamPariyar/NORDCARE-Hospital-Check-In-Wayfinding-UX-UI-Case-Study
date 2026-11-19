@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">NORDCARE — A calmer way through care</title>
+<desc id="desc">Dark teal NORDCARE portfolio banner with a mint indoor hospital floor plan and an illuminated patient route.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#173e3b"/><stop offset=".62" stop-color="#103c3a"/><stop offset="1" stop-color="#0c302e"/></linearGradient>
+  <linearGradient id="mint" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f4faf5"/><stop offset="1" stop-color="#dfefe7"/></linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#67d2ba"/><stop offset="1" stop-color="#a9dfd3"/></linearGradient>
+  <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><path d="M22 0H0V22" fill="none" stroke="#bed6ca" stroke-opacity=".45" stroke-width=".6"/></pattern>
+  <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#092724" flood-opacity=".38"/></filter>
+</defs>
+<rect width="1200" height="480" rx="24" fill="url(#bg)"/>
+<circle cx="115" cy="450" r="250" fill="#68c7b0" fill-opacity=".055"/>
+<circle cx="1110" cy="40" r="220" fill="#b1e2cf" fill-opacity=".09"/>
+<path d="M0 422C170 334 285 458 441 382S671 271 820 344" fill="none" stroke="#65c6ac" stroke-width="2" stroke-opacity=".18" stroke-dasharray="7 14"/>
+<g transform="translate(72 60)">
+  <rect width="43" height="43" rx="15" fill="#2a9c87" transform="rotate(-8 21.5 21.5)"/>
+  <path d="M21.5 11V32M11 21.5H32" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+  <text x="57" y="31" fill="#f8fcf8" font-family="Arial,Helvetica,sans-serif" font-size="26" letter-spacing="-1.2" font-weight="700">NORD<tspan font-weight="400">CARE</tspan></text>
+</g>
+<text x="72" y="165" fill="#b0d9ca" font-family="Arial,Helvetica,sans-serif" font-size="13" letter-spacing="3.3" font-weight="700">INCLUSIVE HEALTHCARE  /  UX &amp; SERVICE DESIGN</text>
+<text x="69" y="241" fill="#fbfff9" font-family="Arial,Helvetica,sans-serif" font-size="55" font-weight="700" letter-spacing="-2.5">A calmer way</text>
+<text x="69" y="306" fill="#a2d8c6" font-family="Arial,Helvetica,sans-serif" font-size="55" font-weight="700" letter-spacing="-2.5">through care.</text>
+<text x="73" y="352" fill="#c4dfd4" font-family="Arial,Helvetica,sans-serif" font-size="18">Check in. Find your way. Feel supported.</text>
+<g font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="700">
+  <rect x="73" y="393" width="128" height="35" rx="17.5" fill="#254f47" stroke="#609688"/>
+  <text x="91" y="416" fill="#d4f1e4">INTERACTIVE</text>
+  <rect x="215" y="393" width="115" height="35" rx="17.5" fill="#254f47" stroke="#609688"/>
+  <text x="238" y="416" fill="#d4f1e4">3 FLOORS</text>
+  <rect x="344" y="393" width="120" height="35" rx="17.5" fill="#254f47" stroke="#609688"/>
+  <text x="362" y="416" fill="#d4f1e4">EN / FI / SV</text>
+</g>
+<g filter="url(#shadow)">
+  <rect x="642" y="48" width="494" height="380" rx="18" fill="url(#mint)"/>
+  <rect x="642" y="48" width="494" height="64" rx="18" fill="#f7fcf8"/>
+  <rect x="642" y="90" width="494" height="22" fill="#f7fcf8"/>
+  <path d="M642 112H1136" stroke="#cddfd5"/>
+  <rect x="665" y="70" width="21" height="21" rx="7" fill="#176f69"/>
+  <path d="M675.5 75V86M670 80.5H681" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <text x="700" y="85" fill="#254b47" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700">YOUR ROUTE</text>
+  <text x="1054" y="84" fill="#5b8175" font-family="Arial,Helvetica,sans-serif" font-size="12" font-weight="700">FLOOR 02</text>
+  <rect x="665" y="129" width="448" height="273" rx="10" fill="#edf5f0" stroke="#bdcec5" stroke-width="1.5"/>
+  <rect x="665" y="129" width="448" height="273" rx="10" fill="url(#grid)"/>
+  <path d="M683 178H1095V381H683Z" fill="#e3eee8" stroke="#abc5b9" stroke-width="3"/>
+  <g stroke="#bed3c8" stroke-width="2">
+    <rect x="700" y="195" width="111" height="66" rx="6" fill="#e7f2ed"/>
+    <rect x="821" y="195" width="114" height="66" rx="6" fill="#f7e6d9"/>
+    <rect x="945" y="195" width="133" height="66" rx="6" fill="#c9e8da" stroke="#58ac96"/>
+    <rect x="700" y="315" width="111" height="48" rx="6" fill="#e7f2ed"/>
+    <rect x="823" y="315" width="112" height="48" rx="6" fill="#e7f2ed"/>
+    <rect x="946" y="315" width="132" height="48" rx="6" fill="#e7f2ed"/>
+  </g>
+  <g font-family="Arial,Helvetica,sans-serif" fill="#587b70" font-size="10" font-weight="700">
+    <text x="709" y="211">A · 21–24</text><text x="709" y="230" font-size="12" fill="#28534a">Physiotherapy</text>
+    <text x="831" y="211">B · 21–24</text><text x="831" y="230" font-size="12" fill="#28534a">Children's clinic</text>
+    <text x="955" y="211">B · 25</text><text x="955" y="230" font-size="13" fill="#1a6658">Waiting area C</text>
+    <text x="708" y="343">Family lounge</text><text x="832" y="343">Play area</text><text x="955" y="343">Accessible WC</text>
+  </g>
+  <path d="M755 261V286H994V261" fill="none" stroke="#c7dad0" stroke-width="28" stroke-linejoin="round"/>
+  <path d="M755 261V286H994V261" fill="none" stroke="#f9fcfa" stroke-width="21" stroke-linejoin="round"/>
+  <path d="M868 351V287H1010V266" fill="none" stroke="#f4ba78" stroke-opacity=".55" stroke-width="16" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M868 351V287H1010V266" fill="none" stroke="#178477" stroke-width="10" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M868 351V287H1010V266" fill="none" stroke="#b7f4e4" stroke-width="2" stroke-dasharray="3 12" stroke-linecap="round"/>
+  <circle cx="868" cy="351" r="11" fill="#fff" stroke="#178477" stroke-width="6"/>
+  <circle cx="1010" cy="266" r="12" fill="#fff" stroke="#178477" stroke-width="6"/>
+  <circle cx="1010" cy="266" r="4" fill="#178477"/>
+  <rect x="849" y="314" width="38" height="49" rx="7" fill="none" stroke="#87aba0" stroke-width="2"/>
+  <text x="869" y="377" font-family="Arial,Helvetica,sans-serif" text-anchor="middle" fill="#3e7669" font-size="10" font-weight="700">LIFT B</text>
+</g>
+<text x="1121" y="455" fill="#a3cfc0" font-family="Arial,Helvetica,sans-serif" font-size="11" letter-spacing="1.7" text-anchor="end">DESIGNED FOR SABNAM PARIYAR · 2026</text>
+</svg>
